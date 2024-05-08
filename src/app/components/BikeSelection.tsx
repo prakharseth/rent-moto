@@ -23,7 +23,7 @@ import {
 } from "@/components/ui/carousel";
 import { Card, CardContent } from "@/components/ui/card";
 
-const images = ['bike1.png', 'bike2.png', 'bike3.png', 'bike4.png'];
+const images = ["bike1.png", "bike2.png", "bike3.png", "bike4.png"];
 
 export default function BikeSelection() {
   return (
@@ -70,29 +70,29 @@ export default function BikeSelection() {
         <p className="border rounded-full px-2.5 py-1 text-sm w-fit">
           ₹3,200 per day
         </p>
-        <Carousel className="w-full max-w-xs">
-    <CarouselContent>
-      {images.map((image, index) => (
-        <CarouselItem key={index}>
-          <div className="p-1">
-            <Card>
-              <CardContent className="flex aspect-square items-center justify-center p-6">
-                <Image 
-                  src={`/${image}`} 
-                  alt={`Bike ${index + 1}`} 
-                  width={400} 
-                  height={400} 
-                  className="object-contain"
-                />
-              </CardContent>
-            </Card>
-          </div>
-        </CarouselItem>
-      ))}
-    </CarouselContent>
-    <CarouselPrevious />
-    <CarouselNext />
-  </Carousel>
+        <Carousel className="w-full max-w-xs ">
+          <CarouselContent>
+            {images.map((image, index) => (
+              <CarouselItem key={index}>
+                <div className="p-1">
+                  <Card>
+                    <CardContent className="flex aspect-square items-center justify-center p-6">
+                      <Image
+                        src={`/${image}`}
+                        alt={`Bike ${index + 1}`}
+                        width={400}
+                        height={400}
+                        className="object-contain"
+                      />
+                    </CardContent>
+                  </Card>
+                </div>
+              </CarouselItem>
+            ))}
+          </CarouselContent>
+          <CarouselPrevious className="sm:flex hidden"/>
+          <CarouselNext className="sm:flex hidden"/>
+        </Carousel>
       </div>
     </div>
   );
