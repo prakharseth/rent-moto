@@ -29,7 +29,7 @@ export default function Hero() {
             </a>
           </div>
         </div>
-        <Image className="sm:scale-100 "  alt="bike image" src={"/bike.png"} width={518} height={400} />
+        <Image className="sm:scale-100 "  alt="bike image" src={"/bike1.png"} width={518} height={400} />
       </div>
       <ul className="sm:w-full w-fit flex justify-between list-disc text-foreground/80	text-xs sm:flex-row px-8 py-2 border rounded gap-2 flex-col ">
          <li>Quick booking process</li>
