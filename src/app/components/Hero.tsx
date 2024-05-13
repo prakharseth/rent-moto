@@ -1,14 +1,12 @@
 /** @format */
 import { IoIosArrowForward } from "react-icons/io";
-
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
-
 export default function Hero() {
   return (
     <main className="flex flex-col lg:px-20 px-10 py-10 gap-6  lg:items-start items-center">
       <div className="lg:flex-row flex flex-col lg:items-start items-center justify-between w-full gap-16">
-        <div className="flex flex-col gap-8 lg:items-start items-center ">
+        <div className="flex flex-col gap-8 lg:pt-20 lg:items-start items-center ">
           <div className="flex flex-col gap-4 lg:w-96 lg:items-start items-center">
             <p className="text-xs px-2.5 py-1 border rounded-full text-foreground/80 w-fit">
               Ride in 15 minutes.
