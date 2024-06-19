@@ -25,7 +25,7 @@ export default function Footer() {
           <FaGithub />
         </div>
         <p className="text-sm text-muted-foreground">
-          © 2024 Beauty. All rights reserved.
+          © 2024 Rent Moto. All rights reserved.
         </p>
       </div>
     </div>
